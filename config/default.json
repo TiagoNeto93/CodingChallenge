@@ -1,22 +1,11 @@
 {
-    "api": {
-        "token_secret": "./run/secrets/node_token_secret",
-        "token_audience": ["Admin"]
-    },
-
     "server": {
         "protocol": "http",
         "host": "localhost",
-        "port": "3000",
-        "routes": "./../../../../routes"
+        "port": "3000"
     },
 
     "database": {
         "connectionString": "mongodb+srv://user-read:BZE5OoqanQxsrMDA@cluster0.exvwv.mongodb.net/HackerNews?retryWrites=true&w=majority"
-    },
-
-    "gameServers": {
-        "server1": "http://localhost:4000",
-        "server2": "http://localhost:4000"
     }
 }
